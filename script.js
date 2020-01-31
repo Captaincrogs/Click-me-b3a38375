@@ -4,9 +4,9 @@ matches[0].style.color = "blue";
 }
 
 var matches = document.querySelectorAll(".h1tag");
-function myFunction()
-{    
-return document.body.style.backgroundColor = "red";
+function myFunction(){    
+    var kleur = document.getElementById("kleur").value;
+return document.body.style.backgroundColor = kleur;
 }
 
 
